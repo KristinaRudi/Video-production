@@ -1,0 +1,28 @@
+.footer-container {
+    margin-top: auto;
+}
+
+.footer-container__main-page {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 55px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 137px;
+}
+
+.footer__col{
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo{
+    margin-right: 129px;
+}
+
+.footer .socials{
+    margin-right: 70px;
+}

@@ -1,0 +1,32 @@
+.button {
+    margin-top: auto;
+    padding: 18px 54px;
+    min-width: 168px;
+    max-width: 198px;
+    max-height: 55px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    /*text-overflow: ellipsis;*/
+    background: #FF5400;
+    transition: .3s;
+}
+
+.button:hover {
+    background: #FF3D00;
+}
+
+.button_type_border {
+    border-color: #FF5500;
+    background-color: #fff;
+    color: #FF5500;
+}
+
+.button_type_border:hover {
+    background-color:  #FF5500;
+    color:#fff;
+}

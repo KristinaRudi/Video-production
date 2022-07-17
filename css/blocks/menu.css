@@ -1,0 +1,26 @@
+.menu {
+    font-size: 14px;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 592px;
+}
+
+.menu__item {
+    margin-right: 54px;
+}
+
+.menu__item:nth-child(6) {
+    margin-right: 0;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link:hover {
+    transition: .5s;
+    color: #FF3D00
+}

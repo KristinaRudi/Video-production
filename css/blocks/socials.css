@@ -1,0 +1,40 @@
+.socials {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0px;
+}
+
+.socials__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/icons/sprite-socials.png);
+}
+
+.socials__link:hover {
+    filter: invert(0.5);
+    transition: .3s;
+}
+
+.socials__item_icon_telegram .socials__link {
+    background-position: 0px -36px;
+}
+
+.socials__item_icon_vk .socials__link {
+    background-position: -36px -36px;
+}
+
+.socials__item_icon_fb .socials__link {
+    background-position: 0px 0px;
+}
+
+.socials__item_icon_insta .socials__link {
+    background-position: -36px 0px;
+}
