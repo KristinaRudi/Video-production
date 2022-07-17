@@ -21,28 +21,23 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    /*убираем ненужный горизонтальный скрол*/
     min-width: 1200px;
-    /*????*/
+    /*Чтобы был горизонтальный скрол при уменшении экрана*/
     min-height: 100%;
-
 }
-
-/*.wrapper__content {
-    flex: 1;
-}*/
 
 .main-page-wrapper {
     background: url("../../img/bg/hero.png") center top, url("../../img/bg/bottom-pic.png") center bottom 306px;
-    /*width: 100%;*/
     background-repeat: no-repeat;
     overflow: hidden;
-    /*flex: 1;*/
 }
 
 .container {
     margin: 0 auto;
-    width: 100%;
-    max-width: 1139px;
+    width: 1139px;
+    /*width: 100%;*/
+    /*max-width: 1139px;*/
 }
 
 .title {

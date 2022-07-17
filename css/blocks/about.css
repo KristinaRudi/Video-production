@@ -7,7 +7,7 @@
     display: block;
     width: 490px;
     height: 505px;
-    background: url("../../img/content/cameraman.jpg");
+    background: url("../../img/content/cameraman.jpg") center center / cover no-repeat;
 }
 
 .about__desc {
